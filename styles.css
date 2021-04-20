@@ -1,3 +1,17 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background-image: url('https://walli.quosmos.com/files/thumbs/c/6/e/c6e5c2f80bed69798feae447b9ffdc9157c0560a/color15__800_800.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main {
+    position: relative;
+    min-height: 100vh;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -7,10 +21,12 @@ ul {
 
 li {
     display: inline;
+    padding: 0 5px 0 5px;
 }
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 .material-icons {
@@ -19,7 +35,50 @@ a {
     top: 6px;
 }
 
-.main-content {
+#main-content {
     text-align: center;
+}
+
+.logo {
+    margin: 130px 0px 20px 0px;
+
+}
+
+input[type='text'] {
+    width: 500px;
+    height: 30px;
+    border-radius: 25px;
+    border:none;
+}
+
+#footer {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    width: 100%;
+}
+
+footer ul{
+    text-align: left;
+}
+
+footer li {
+    display: block;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+#reference-link {
+    width: 135px;
+    height: 50px;
+    padding: 3px 5px;
+    border-radius: 10px;;
+}
+#reference-link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+footer i {
+    padding-right: 10px;
 }
 
