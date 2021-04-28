@@ -5,26 +5,53 @@
 }
 
 body {
+    height: 100vh;
+    width: 100vw;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #fff;
     background-image: url('https://walli.quosmos.com/files/thumbs/c/6/e/c6e5c2f80bed69798feae447b9ffdc9157c0560a/color15__800_800.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .container {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 4fr 1fr;
 }
 
 .navbar {
     background-color: #ff4444;
 }
 
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+.navbar li {
+    margin: 35px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .main-content {
     background-color: #44ff44;
 }
+
+#search-bar {
+    width: 500px;
+    background-color: white;
+}
+
+ 
 
 .footer {
     background-color: #4444ff;
