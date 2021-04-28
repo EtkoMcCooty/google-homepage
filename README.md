@@ -4,6 +4,7 @@ This was the first project I have done by myself and I have learnt a lot such as
 
 - How to create grids and align elements using CSS grid 
 - How to create flex containers and align elements using flexbox
+- How to use CSS grid and flexbox together
 - How to create a navbar
 - The basic git workflow
 - How to add material icons to my page
